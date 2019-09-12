@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from 'gatsby'
-import { Banner, DefaultHero, Layout } from '../components'
+import { About, Banner, DefaultHero, Layout, Services } from '../components'
 
 const title = "Continue Exploring"
 const info = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, repudiandae?"
@@ -12,6 +12,7 @@ export default () => (
         <Link to="/tours" className="btn-white">Explore tours</Link>
       </Banner>
     </DefaultHero>
-    <h1>Hello World!</h1>
+    <About/>
+    <Services/>
   </Layout>
 )

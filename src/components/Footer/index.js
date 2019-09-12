@@ -6,6 +6,7 @@ import styled from 'styled-components'
 
 const Nav = styled.nav`
   display: flex;
+  margin-top: auto;
   padding: 0 1rem;
   justify-content: flex-start;
   align-items: center;
